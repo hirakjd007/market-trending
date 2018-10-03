@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Card, Icon, Image } from 'semantic-ui-react'
+import image from './profile_icon.png';
 
 class Staff extends Component {
   state = {
@@ -15,14 +17,35 @@ class Staff extends Component {
   }
 
   render() {
-     // console.log(this.state);
+      console.log(this.state);
     const { currentUserEmail, currentUserName } = this.state;
 
     return (
-      <div>
-        <h1>Welcome {currentUserName}</h1>
-        <p>Email: {currentUserEmail}</p>
-        <p>You have reached the authorized member area of the portal</p>
+      <div  >
+        <Card >
+        <Image alt='icon'circular src={image}/>
+        <Card.Content>
+          <Card.Header>
+            <h2>
+            {currentUserName}
+            </h2>
+      </Card.Header>
+          <Card.Meta>
+            <span>
+              {currentUserEmail}
+        </span>
+          </Card.Meta>
+          <Card.Description>
+           Hirak is a very cool person
+      </Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+          <a>
+            <Icon name='user' />
+           Envestnet Yodlee
+      </a>
+        </Card.Content>
+      </Card>
       </div>
     );
   }

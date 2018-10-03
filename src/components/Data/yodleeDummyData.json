@@ -1,0 +1,67 @@
+[
+    {
+        "investmentTypeId": 1,
+        "investmentType": "Stocks",
+        "percentage": 66.67
+    },
+    {
+        "investmentTypeId": 2,
+        "investmentType": "Investment Funds",
+        "percentage": 0
+    },
+    {
+        "investmentTypeId": 3,
+        "investmentType": "Options",
+        "percentage": 0
+    },
+    {
+        "investmentTypeId": 4,
+        "investmentType": "Retirement",
+        "percentage": 0
+    },
+    {
+        "investmentTypeId": 5,
+        "investmentType": "Alternative and Complex Products",
+        "percentage": 0
+    },
+    {
+        "investmentTypeId": 6,
+        "investmentType": "Commodity Futures",
+        "percentage": 0
+    },
+    {
+        "investmentTypeId": 7,
+        "investmentType": "Insurance",
+        "percentage": 0
+    },
+    {
+        "investmentTypeId": 8,
+        "investmentType": "Bonds",
+        "percentage": 0
+    },
+    {
+        "investmentTypeId": 9,
+        "investmentType": "Bank Products",
+        "percentage": 0
+    },
+    {
+        "investmentTypeId": 10,
+        "investmentType": "Annuities",
+        "percentage": 0
+    },
+    {
+        "investmentTypeId": 11,
+        "investmentType": "Saving for College",
+        "percentage": 0
+    },
+    {
+        "investmentTypeId": 12,
+        "investmentType": "Initial Coin Offerings and Cryptocurrencies",
+        "percentage": 33.33
+    },
+    {
+        "investmentTypeId": 13,
+        "investmentType": "Security Futures",
+        "percentage": 0
+    }
+]

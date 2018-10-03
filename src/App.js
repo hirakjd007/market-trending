@@ -8,7 +8,8 @@ import Staff from './components/pages/Staff';
 import Login from './components/auth/Login';
 
 import './App.css';
-import MarketTrend from './components/pages/MarketTrend';
+import Market from './components/pages/Market';
+import YodleeUserInvestment from './components/pages/YodleeUserInvestment';
 
 function onAuthRequired({ history }) {
   history.push('/login');
@@ -28,7 +29,8 @@ class App extends Component {
             <Navbar />
             <div className="container">
               <Route path="/" exact={true} component={Home} />
-              <Route path="/markettrend" exact={true} component = {MarketTrend}/>
+              <Route path="/markettrend" exact={true} component = {Market}/>
+              <Route path="/yodleeUserInvestDetail" exact={true} component={YodleeUserInvestment}/>
               <SecureRoute path="/staff" exact={true} component={Staff} />
               <Route
                 path="/login"
